@@ -62,12 +62,12 @@ if !font_path.nil?
     `rm #{filepath}.woff`
 
     # Move to global font folder, TTF and OTF
-    `cp #{filepath} /Library/Fonts/#{filename}.otf`
-    `cp #{filepath} /Library/Fonts/#{filename}.ttf`
+    #`cp #{filepath} /Library/Fonts/#{filename}.otf`
+    #`cp #{filepath} /Library/Fonts/#{filename}.ttf`
 
     # Hide these files
-    `chflags hidden /Library/Fonts/#{filename}.otf`
-    `chflags hidden /Library/Fonts/#{filename}.ttf`
+    #`chflags hidden /Library/Fonts/#{filename}.otf`
+    #`chflags hidden /Library/Fonts/#{filename}.ttf`
 
   end
 end
